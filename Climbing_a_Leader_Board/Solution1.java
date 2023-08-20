@@ -1,4 +1,4 @@
-package Climbing_the_leaderboard;
+package Climbing_a_Leader_Board;
 
 import java.util.*;
 
