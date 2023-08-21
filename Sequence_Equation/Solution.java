@@ -10,6 +10,7 @@ public class Solution {
         int n = a.size();
         int[] indexMapping = new int[n + 1];
 
+        // Create mapping follow value of origin array
         for (int i = 1; i <= n; i++) {
             indexMapping[a.get(i - 1)] = i;
         }
