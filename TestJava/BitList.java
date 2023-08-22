@@ -18,6 +18,7 @@ class BitList {
             tempList.set(i, tempList.get(length - i - 1));
             tempList.set(length - i - 1, temp);
         }
+
         return tempList;
     }
 
